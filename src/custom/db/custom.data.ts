@@ -1,6 +1,7 @@
 import { Customs } from '../custom.interface';
 import { externalDashboardTile } from './dashtile.data';
 import { podsButton } from './pods-button.data';
+import { podsCalculator } from './pods-calculator.data';
 import { podsInputAnime } from './pods-input-anime.data';
 import { podsInputCNPJ } from './pods-input.data';
 import { xcomp } from './xcomp.data';
@@ -26,4 +27,8 @@ export const customs: Customs = [
     component: 'pods-input-anime',
     src: podsInputAnime,
   },
+  {
+    component: 'pods-calculator',
+    src: podsCalculator
+  }
 ];
