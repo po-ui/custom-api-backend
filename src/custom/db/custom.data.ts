@@ -1,5 +1,6 @@
 import { Customs } from '../custom.interface';
 import { externalDashboardTile } from './dashtile.data';
+import { dataForm } from './data-form';
 import { podsButton } from './pods-button.data';
 import { podsCalculator } from './pods-calculator.data';
 import { podsInputAnime } from './pods-input-anime.data';
@@ -30,5 +31,9 @@ export const customs: Customs = [
   {
     component: 'pods-calculator',
     src: podsCalculator
+  },
+  {
+    component: 'data-form',
+    src: dataForm
   }
 ];
