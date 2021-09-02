@@ -36,7 +36,8 @@ export const customs: Customs = [
   },
   {
     component: 'pods-calculator',
-    src: podsCalculator
+    src: podsCalculator,
+    integrity: 'sha256-4be7b6642b779554aed30f863930bd94bc764968dcef94c3878034da19c6250b'
   },
   {
     component: 'data-form',
