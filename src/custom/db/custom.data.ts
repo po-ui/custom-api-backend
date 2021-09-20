@@ -12,6 +12,8 @@ import { pocCNPJ } from './poc-cnpj';
 import { pocCPF } from './poc-cpf';
 import { pocTable } from './poc-table.data';
 import { pocChart } from './poc-chart';
+import { hcApp } from './hc-app.data';
+import { popupData } from './popup.data';
 
 export const customs: Customs = [
   {
@@ -66,5 +68,13 @@ export const customs: Customs = [
   {
     component: 'chart-root',
     src: pocChart
+  },
+  {
+    component: 'hc-app',
+    src: hcApp
+  },
+  {
+    component: 'po-poc-form',
+    src: popupData
   }
 ];
