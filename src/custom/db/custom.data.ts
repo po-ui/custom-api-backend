@@ -14,6 +14,7 @@ import { pocTable } from './poc-table.data';
 import { pocChart } from './poc-chart';
 import { hcApp } from './hc-app.data';
 import { popupData } from './popup.data';
+import { finalForm } from './final-form';
 
 export const customs: Customs = [
   {
@@ -76,5 +77,9 @@ export const customs: Customs = [
   {
     component: 'po-poc-form',
     src: popupData
+  },
+  {
+    component: 'final-form',
+    src: finalForm
   }
 ];
